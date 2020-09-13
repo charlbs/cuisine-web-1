@@ -1,0 +1,70 @@
+.container{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: aliceblue;
+    border: 1px solid blue;
+    display: flex;
+}
+ul{
+    display:block;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+    margin-right: 5%;
+    margin-left: -8%;
+  
+}
+.menu{
+    height:80%;
+    width: 20%;
+    border: 1px solid red;
+    color: blue;
+    text-align: justify;
+    padding: 0%;
+
+}
+.stromae{
+    transition: 3s;
+    width: 80%;
+    height: 20%;
+    border-radius: 5px;
+    box-shadow: inset 1px 0px 10px 4px black;
+    border: 1px solid yellow;
+    position: absolute;
+    background-image: radial-gradient(rgb(128 190 35 / 13%), #666);
+    color: #484948;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'castellar', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.biographie{
+    border: 1px solid black;
+    height: 59.9%;
+    width: 79.9%;
+    position: absolute;
+    margin-top: 8.2%;
+}
+a{
+    text-decoration: none;
+    
+}
+h3{
+    font-size:30px;
+    padding:10%;
+    background-color: rgb(151, 148, 148);
+    margin-top: 0%;
+    color: white;
+    text-align: center;
+ 
+    box-shadow: inset 1px 0px 10px 4px black;
+}
+li{
+    background-color: rgb(151, 148, 148);
+    margin: 15%;
+   
+    height: 50px;
+    display: flex;
+ align-items: center;
+ justify-content: center;
+}
